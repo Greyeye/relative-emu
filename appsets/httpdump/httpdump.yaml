@@ -26,7 +26,7 @@ spec:
         server: '{{ url }}'
       project: default
       source:
-        repoURL: https://github.com/Greyeye/classic-mongrel
+        repoURL: https://github.com/Greyeye/relative-emu
         targetRevision: HEAD
         path: 'apps/httpdump/overlays/{{ name }}/'
       syncPolicy:
