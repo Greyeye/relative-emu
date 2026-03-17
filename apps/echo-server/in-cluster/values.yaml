@@ -1,5 +1,5 @@
 echo-server:
-  replicaCount: three
+  replicaCount: god-this-is-wrong
   livenessProbe:
     httpGet:
       path: /ping
