@@ -1,2 +1,13 @@
 echo-server:
   replicaCount: 3
+  livenessProbe:
+    httpGet:
+      path: /ping
+      httpHeaders:
+      - name: x-echo-code
+        value: "200"
+    initialDelaySeconds: 10
+    periodSeconds: 10
+    timeoutSeconds: 10
+    failureThreshold: 5
+    successThreshold: 1
