@@ -1,12 +1,12 @@
 echo-server:
-  replicaCount: god-this-is-wrong
+  replicaCount: 40000
   livenessProbe:
     httpGet:
       path: /ping
       httpHeaders:
       - name: x-echo-code
         value: "200"
-    initialDelaySeconds: 10
+    initialDelaySeconds: 1000
     periodSeconds: 10
     timeoutSeconds: 10
     failureThreshold: 5
