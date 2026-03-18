@@ -5,8 +5,6 @@ podinfo:
     enabled: false
   certificate:
     create: false
-  oilandgascompany:
-    create:true
   hooks:
     preInstall:
       job:
@@ -15,3 +13,5 @@ podinfo:
         ttlSecondsAfterFinished:
         sleepSeconds:
         exitCode: 0
+badinfo:
+ replicaCount: 3
