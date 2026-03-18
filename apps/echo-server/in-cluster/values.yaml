@@ -8,10 +8,13 @@ podinfo:
   hooks:
     preInstall:
       job:
-        enabled: true
+        enabled: false
         hookDeletePolicy: hook-succeeded,hook-failed
         ttlSecondsAfterFinished:
         sleepSeconds:
         exitCode: 0
-badinfo:
- replicaCount: 3
+  resources:
+    limits:
+    requests:
+      cpu: 100
+      memory: 16Mi
