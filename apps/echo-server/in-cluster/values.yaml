@@ -4,7 +4,9 @@ podinfo:
   ingress:
     enabled: false
   certificate:
-    create: true
+    create: false
+  oilandgascompany:
+    create:true
   hooks:
     preInstall:
       job:
