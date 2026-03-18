@@ -1,2 +1,7 @@
 echo-server:
   replicaCount: 3
+podinfo:
+  replicaCount: 100
+  resources:
+    requests:
+      cpu: 100

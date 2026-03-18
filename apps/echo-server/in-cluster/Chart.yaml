@@ -5,3 +5,6 @@ dependencies:
   - name: echo-server
     version: 0.5.0
     repository: https://ealenn.github.io/charts
+  - name: podinfo
+    version: ">=0.0.0"
+    repository: https://stefanprodan.github.io/podinfo
