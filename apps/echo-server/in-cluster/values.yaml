@@ -1,20 +1,2 @@
 echo-server:
   replicaCount: 3
-podinfo:
-  ingress:
-    enabled: false
-  certificate:
-    create: false
-  hooks:
-    preInstall:
-      job:
-        enabled: false
-        hookDeletePolicy: hook-succeeded,hook-failed
-        ttlSecondsAfterFinished:
-        sleepSeconds:
-        exitCode: 0
-  resources:
-    limits:
-    requests:
-      cpu: 100
-      memory: 16Mi
