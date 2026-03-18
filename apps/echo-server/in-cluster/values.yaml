@@ -1,2 +1,15 @@
 echo-server:
   replicaCount: 3
+podinfo:
+  ingress:
+    enabled: false
+  certificate:
+    create: true
+  hooks:
+    preInstall:
+      job:
+        enabled: true
+        hookDeletePolicy: hook-succeeded,hook-failed
+        ttlSecondsAfterFinished:
+        sleepSeconds:
+        exitCode: 0
