@@ -1,2 +1,2 @@
 echo-server:
-  replicaCount: 3000
+  replicaCount: 3
