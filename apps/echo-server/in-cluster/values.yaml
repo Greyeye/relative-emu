@@ -4,8 +4,13 @@ podinfo:
   replicaCount: 2
   resources:
     requests:
-      cpu: 1m
+      cpu: 10
       memory: 32Mi
     limits:
-      cpu: 50m
+      cpu: 16
       memory: 64Mi
+  serviceMonitors:
+    enabled: true
+    interval: 15s
+podinfotest:
+  replicaCount: 2

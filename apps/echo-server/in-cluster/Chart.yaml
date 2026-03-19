@@ -8,3 +8,7 @@ dependencies:
   - name: podinfo
     version: "6.11.1"
     repository: https://stefanprodan.github.io/podinfo
+  - name: podinfo
+    alias: podinfotest
+    version: "6.11.1"
+    repository: https://stefanprodan.github.io/podinfo
