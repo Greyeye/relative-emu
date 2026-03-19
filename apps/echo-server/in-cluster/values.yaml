@@ -1,16 +1,2 @@
 echo-server:
   replicaCount: 3
-podinfo:
-  replicaCount: 2
-  resources:
-    requests:
-      cpu: 10m
-      memory: 32Mi
-    limits:
-      cpu: 16m
-      memory: 64Mi
-  serviceMonitors:
-    enabled: true
-    interval: 15s
-podinfotest:
-  replicaCount: 2
