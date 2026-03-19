@@ -5,10 +5,3 @@ dependencies:
   - name: echo-server
     version: 0.5.0
     repository: https://ealenn.github.io/charts
-  - name: podinfo
-    version: "6.11.1"
-    repository: https://stefanprodan.github.io/podinfo
-  - name: podinfo
-    alias: podinfotest
-    version: "6.11.1"
-    repository: https://stefanprodan.github.io/podinfo
