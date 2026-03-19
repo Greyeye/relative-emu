@@ -5,5 +5,4 @@ podinfo:
   resources:
     requests:
       cpu: 1m
-      memory: 16Mi
       memory: 32Mi
